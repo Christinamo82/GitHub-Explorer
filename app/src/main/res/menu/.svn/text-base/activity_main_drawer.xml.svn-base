@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_login_layout"
+            android:icon="@drawable/side_nav_bar"
+            android:title="Login" />
+        <item
+            android:id="@+id/nav_search_layout"
+            android:icon="@drawable/side_nav_bar"
+            android:title="Search" />
+        <item
+            android:id="@+id/nav_profile_layout"
+            android:icon="@drawable/side_nav_bar"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_repos_layout"
+            android:icon="@drawable/side_nav_bar"
+            android:title="Repositories" />
+        <item
+            android:id="@+id/nav_followers_layout"
+            android:icon="@drawable/side_nav_bar"
+            android:title="Followers" />
+        <item
+            android:id="@+id/nav_following_layout"
+            android:icon="@drawable/side_nav_bar"
+            android:title="Following" />
+        <item
+            android:id="@+id/nav_notification_layout"
+            android:icon="@drawable/side_nav_bar"
+            android:title="Notification" />
+        <item
+            android:id="@+id/nav_graph_layout"
+            android:icon="@drawable/side_nav_bar"
+            android:title="Repository Graph commits per week" />
+        <item
+            android:id="@+id/nav_graph_addtion_layout"
+            android:icon="@drawable/side_nav_bar"
+            android:title="Repository Graph addtion per week" />
+    </group>
+
+    <!--<item android:title="Data_storing">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_store_profile"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="store_profile" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_store_repos"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="store_repos" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_store_followers"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="store_followers" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_store_followings"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="store_following" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

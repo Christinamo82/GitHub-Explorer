@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#B09398"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/icon"
+        android:layout_marginTop="29dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/user_search_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageView3"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="34dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/text_user_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/user_search_input"
+        android:layout_marginBottom="11dp"
+        android:layout_marginEnd="32dp"
+        android:layout_toStartOf="@+id/user_search_input"
+        android:text="search user:" />
+
+    <Button
+        android:id="@+id/button_user_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="search user"
+        android:layout_below="@+id/user_search_input"
+        android:background="#CFC7D2"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:id="@+id/repos_search_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/user_search_input"
+        android:layout_below="@+id/button_user_search"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/text_repos_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="search repositories:"
+        android:layout_alignBaseline="@+id/repos_search_input"
+        android:layout_alignBottom="@+id/repos_search_input"
+        android:layout_toStartOf="@+id/button_user_search" />
+
+    <Button
+        android:id="@+id/button_search_repos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="search repositories"
+        android:layout_below="@+id/repos_search_input"
+        android:background="#CFC7D2"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

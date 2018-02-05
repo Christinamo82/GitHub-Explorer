@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/fa17-cs242/!svn/ver/11747/cmo2/Assignment3.2/app
+END
+app.iml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/fa17-cs242/!svn/ver/11747/cmo2/Assignment3.2/app/app.iml
+END
+.gitignore
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/fa17-cs242/!svn/ver/11747/cmo2/Assignment3.2/app/.gitignore
+END
+proguard-rules.pro
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/fa17-cs242/!svn/ver/11747/cmo2/Assignment3.2/app/proguard-rules.pro
+END
+build.gradle
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/fa17-cs242/!svn/ver/11747/cmo2/Assignment3.2/app/build.gradle
+END
